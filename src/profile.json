@@ -1,0 +1,90 @@
+{
+  "name": "Jeffrey Zhen",
+  "title": "Full-Stack Developer",
+  "about":
+    "I am a full-stack developer based in the ever-historic city of Boston. I have a passion for web design— with an affinity for user experience and front-end development. When I'm not in front of a computer screen, you can find me behind a ukulele, with my head buried in a Spanish textbook, or cruising through the streets on my longboard.",
+  "experience": [
+    {
+      "company": "Sebrio",
+      "title": "Web Developer",
+      "start": "July 2016",
+      "end": "October 2017",
+      "description":
+        "I worked on the front-end of our flagship web application, AMY. The application was a patient management system that allowed for hospital stakeholders and CEOs to get an overview of how their hospital was performing in respect to the ACAA. My responsibilities included component development, bug fixing, and code maintenance."
+    },
+    {
+      "company": "Launch Academy",
+      "title": "Full-Stack Developer",
+      "start": "February 2016",
+      "end": "April 2016",
+      "description":
+        "Launch Academy is a 10-week intensive program that aims to teach people the proper tools and methodologies to become a junior full-stack web developer. The program started off by providing me with a solid foundation of ruby and core programming concepts. By the end of the program, I established an adept understanding of web development and 30 new friends that I would've never met anywhere else!"
+    },
+    {
+      "company": "GENEWIZ",
+      "title": "Associate Scientist",
+      "start": "January 2015",
+      "end": "February 2016",
+      "description":
+        "My responsibilities were to collect, sequence, and return DNA samples that were submitted by our clients. Our clients ranged from small university laboratories like Harvard and Northeastern to large companies like Genzyme and Novartis. Eventually, my performance led me to a position where I would train and manage our new hires."
+    }
+  ],
+  "education": {
+    "school": "University of Massachusetts Amherst",
+    "graduation": "December 2013",
+    "degree": "Bachelor of Science in Biochemistry",
+    "description":
+      "My primary focus while enrolled in school was on biofuels. I preformed research on camelina, arabidopsis, and all matters of corn. My findings were reported directly to the head of the biochemistry department."
+  },
+  "projects": [
+    {
+      "img": "5imply-weather.png",
+      "name": "5implyWeather",
+      "description":
+        "A minimalist weather app built in React. The app provides a 5-day & 24-hour forecast based on the address that is entered. This was a fun side project I made to play around with minimal styling and design.",
+      "demoLink": "",
+      "repoLink": "https://github.com/ek0ms/5imply-weather"
+    },
+    {
+      "img": "event-scheduling.png",
+      "name": "Event Scheduling",
+      "description":
+        "A component built in React for planning events in a calendar. Events are dynamically resized and fitted when the times overlap. The tricky part was creating an algorithim that would order and resize the events correctly.",
+      "demoLink": "",
+      "repoLink": "https://github.com/ek0ms/react-schedule-display"
+    },
+    {
+      "img": "food-delivery-mockup.png",
+      "name": "Food Delivery Mockup",
+      "description":
+        "This was a project for a client with a food delivery service. This site was built purely in HTML/CSS and JavaScript.",
+      "demoLink": "",
+      "repoLink": "https://github.com/ek0ms/food-delivery"
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "React",
+    "Redux",
+    "Node.js",
+    "jQuery",
+    "Ruby",
+    "Rails",
+    "HTML",
+    "CSS",
+    "Sass/SCSS",
+    "Bootstrap",
+    "Git",
+    "Gulp",
+    "SQL",
+    "MongoDB",
+    "AWS",
+    "Heroku"
+  ],
+  "contact": "jzhen91@gmail.com",
+  "footer": {
+    "copyright": "2018 Jeffrey Zhen",
+    "github": "https://github.com/ek0ms/",
+    "linkedin": "https://www.linkedin.com/in/jeffreyzhen/"
+  }
+}

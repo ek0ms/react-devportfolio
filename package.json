@@ -2,6 +2,14 @@
   "name": "react-devportfolio",
   "version": "0.1.0",
   "private": true,
+  "keywords": [
+    "portfolio",
+    "personal",
+    "website",
+    "tech",
+    "coding",
+    "dev"
+  ],
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
@@ -11,6 +19,16 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-wait": "0.0.2"
   }
 }
