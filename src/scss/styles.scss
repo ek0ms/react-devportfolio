@@ -625,6 +625,7 @@ footer {
     float: left;
     margin: 0;
     color: $heading;
+    font-size: 1.2em;
   }
 
   span {
@@ -637,6 +638,7 @@ footer {
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0;
+    font-size: 1em;
   }
 
   p,
@@ -874,6 +876,14 @@ footer {
     ----- 12. Media Queries -----
     -----------------------------
 */
+
+@media only screen and (min-width: 768px) {
+  #about {
+    .col-md-4 {
+      text-align: center;
+    }
+  }
+}
 
 // Collapse timeline
 @media only screen and (max-width: 750px) {
