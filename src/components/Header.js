@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const Header = (props) => (
   <header>
@@ -7,22 +8,34 @@ const Header = (props) => (
     </div>
     <ul id="menu" className="shadow">
       <li>
-        <a href="#about">About</a>
+        <Link to="about" spy smooth duration={500}>
+          About
+        </Link>
       </li>
       <li>
-        <a href="#experience">Experience</a>
+        <Link to="experience" spy smooth duration={500}>
+          Experience
+        </Link>
       </li>
       <li>
-        <a href="#education">Education</a>
+        <Link to="education" spy smooth duration={500}>
+          Education
+        </Link>
       </li>
       <li>
-        <a href="#projects">Projects</a>
+        <Link to="projects" spy smooth duration={500}>
+          Projects
+        </Link>
       </li>
       <li>
-        <a href="#skills">Skills</a>
+        <Link to="skills" spy smooth duration={500}>
+          Skills
+        </Link>
       </li>
       <li>
-        <a href="#contact">Contact</a>
+        <Link to="contact" spy smooth duration={500}>
+          Contact
+        </Link>
       </li>
     </ul>
   </header>

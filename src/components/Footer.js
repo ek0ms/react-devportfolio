@@ -1,4 +1,5 @@
 import React from 'react';
+import { animateScroll as scroll } from 'react-scroll';
 
 const Footer = (props) => (
   <footer>
@@ -8,7 +9,7 @@ const Footer = (props) => (
           <p>Copyright &copy; {props.copyright}</p>
         </div>
         <div className="col-sm-2 top">
-          <span id="to-top">
+          <span id="to-top" onClick={() => scroll.scrollToTop()}>
             <i className="fa fa-chevron-up" aria-hidden="true" />
           </span>
         </div>

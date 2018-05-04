@@ -171,6 +171,7 @@ header {
     display: block;
     color: $base-color;
     padding: 10px;
+    cursor: pointer;
 
     &:hover {
       color: $base-color-hover;
@@ -403,11 +404,18 @@ footer {
   position: absolute;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 35px;
+  margin: 0 auto;
   text-align: center;
   z-index: 10;
   bottom: 15px;
   color: #fff;
+
+  a {
+    color: inherit;
+    text-decoration: inherit;
+    background-color: inherit;
+  }
 
   span {
     cursor: pointer;
@@ -794,6 +802,7 @@ footer {
   }
 
   button {
+    cursor: pointer;
     display: block;
     width: 100%;
     background: #fff;
@@ -920,8 +929,13 @@ footer {
   #about {
     text-align: center;
 
+    .heading {
+      margin-top: 20px;
+    }
+
     p {
       text-align: left;
+      margin-top: 20px;
     }
   }
 }
@@ -973,6 +987,12 @@ footer {
     display: none;
   }
 
+  #about {
+    p {
+      font-size: 1.2em;
+    }
+  }
+
   .education-block {
     h3,
     span {
@@ -1015,6 +1035,12 @@ footer {
     a {
       font-size: 0.9em;
       padding: 5px 10px;
+    }
+  }
+
+  #about {
+    p {
+      font-size: 1em;
     }
   }
 }

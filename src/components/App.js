@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+
 import profile from '../profile.json';
-import MobileHamburger from './MobileHamburger';
+
 import Header from './Header';
 import Lead from './Lead';
 import About from './About';
@@ -12,10 +13,12 @@ import Contact from './Contact';
 import Footer from './Footer';
 
 class App extends Component {
+  componentDidMount() {}
+
+  componentWillUnmount() {}
   render() {
     return (
       <div className="App">
-        <MobileHamburger />
         <Header />
         <Lead name={profile.name} title={profile.title} />
         <About description={profile.about} />

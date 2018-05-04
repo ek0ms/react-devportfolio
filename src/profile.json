@@ -2,7 +2,7 @@
   "name": "Jeffrey Zhen",
   "title": "Full-Stack Developer",
   "about":
-    "I am a full-stack developer based in the ever-historic city of Boston. I have a passion for web design— with an affinity for user experience and front-end development. When I'm not in front of a computer screen, you can find me behind a ukulele, with my head buried in a Spanish textbook, or cruising through the streets on my longboard.",
+    "I'm a full-stack developer based in the ever-historic city of Boston. I have a passion for web design— with an affinity for user experience and front-end development. When I'm not in front of a computer screen, you can find me behind a ukulele, with my head buried in a Spanish textbook, or cruising through the streets on my longboard.",
   "experience": [
     {
       "company": "Sebrio",
@@ -14,7 +14,7 @@
     },
     {
       "company": "Launch Academy",
-      "title": "Full-Stack Developer",
+      "title": "Jr. Full-Stack Developer",
       "start": "February 2016",
       "end": "April 2016",
       "description":
