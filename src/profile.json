@@ -10,7 +10,7 @@
       "start": "July 2016",
       "end": "October 2017",
       "description":
-        "I worked on the front-end of our flagship web application, AMY. The application was a patient management system that allowed for hospital stakeholders and CEOs to get an overview of how their hospital was performing in respect to the ACAA. My responsibilities included component development, bug fixing, and code maintenance."
+        "I worked on the front-end of our flagship web application, AMY. The application was a patient management system that allowed for hospital board members and CEOs to get an overview of how their hospital was performing in respect to the ACAA. My responsibilities included component development, bug fixing, and code maintenance."
     },
     {
       "company": "Launch Academy",
@@ -34,7 +34,7 @@
     "graduation": "December 2013",
     "degree": "Bachelor of Science in Biochemistry",
     "description":
-      "My primary focus while enrolled in school was on biofuels. I preformed research on camelina, arabidopsis, and all matters of corn. My findings were reported directly to the head of the biochemistry department."
+      "While enrolled in school, I worked on projects that focused on biofuels. I preformed research on camelina, arabidopsis, and all matters of corn. I was looking for ways to reuse and recycle these plants into efficient sources of energy. My findings were reported directly to the head of the biochemistry department."
   },
   "projects": [
     {
@@ -66,7 +66,8 @@
     "JavaScript",
     "React",
     "Redux",
-    "Node.js",
+    "Node",
+    "Express",
     "jQuery",
     "Ruby",
     "Rails",
@@ -84,7 +85,8 @@
   "contact": "jzhen91@gmail.com",
   "footer": {
     "copyright": "2018 Jeffrey Zhen",
-    "github": "https://github.com/ek0ms/",
-    "linkedin": "https://www.linkedin.com/in/jeffreyzhen/"
+    "gitHub": "https://github.com/ek0ms/",
+    "linkedIn": "https://www.linkedin.com/in/jeffreyzhen/",
+    "angelList": "https://angel.co/jeffrey-zhen"
   }
 }

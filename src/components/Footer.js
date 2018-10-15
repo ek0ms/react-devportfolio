@@ -16,13 +16,18 @@ const Footer = (props) => (
         <div className="col-sm-5 social">
           <ul>
             <li>
-              <a href={props.github} target="_blank">
+              <a href={props.gitHub} target="_blank">
                 <i className="fab fa-github" aria-hidden="true" />
               </a>
             </li>
             <li>
-              <a href={props.linkedin} target="_blank">
+              <a href={props.linkedIn} target="_blank">
                 <i className="fab fa-linkedin-in" aria-hidden="true" />
+              </a>
+            </li>
+            <li>
+              <a href={props.angelList} target="_blank">
+                <i className="fab fa-angellist" aria-hidden="true" />
               </a>
             </li>
           </ul>
